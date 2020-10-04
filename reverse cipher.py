@@ -1,10 +1,15 @@
+#################################
+# Program to reverse the string #
+#################################
+
 text = 'Hello This is an urgent message!'
 
-reverse = ''
-
+# Easy approach
+reverse = text[::-1]
+'''
 i = len(text)-1
 while i >= 0:
     reverse = reverse+text[i]
     i = i-1
-
-print('Reversed string is', reverse)
+'''
+print('Reversed string:', reverse)
